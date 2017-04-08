@@ -1,4 +1,4 @@
 <?php
-  echo "HELLO WORLD!"
+  echo "HELLO WORLD!";
   include "connect_sql.php";
 ?>
