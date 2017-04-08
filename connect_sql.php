@@ -5,9 +5,4 @@
   $password = $url["pass"];
   $db = substr($url["path"], 1);
   $conn = new mysqli($server, $username, $password, $db);
-
-  echo "host: " . $server;
-  echo "\n user: " . $username;
-  echo "\n password: " . $password;
-  echo "\n schema: " . $db;
 ?>
