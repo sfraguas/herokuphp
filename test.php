@@ -3,8 +3,8 @@
 
   include "connect_sql.php";
 
-  echo "host: " . $server;
-  echo "\n user: " . $username;
-  echo "\n password: " . $password;
-  echo "\n schema: " . $db;
+  echo "<br> host: " . $server;
+  echo "<br> user: " . $username;
+  echo "<br> password: " . $password;
+  echo "<br> schema: " . $db;
 ?>
